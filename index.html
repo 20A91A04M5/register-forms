@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <style>
+            .bad {
+                background-color: aquamarine;
+            }
+    
+            .good {
+                width: auto;
+                background-color: blue;
+                display: block;
+                border: none;
+                padding: 10px 20px;
+                color: aliceblue;
+                font-size: 16px;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 0 auto;
+            }
+    
+            .border {
+                border: none;
+                background: transparent;
+                box-decoration-break: none;
+            }
+    
+            
+        </style>
+</head>
+
+<body>
+    <form>
+        <fieldset class="bad">
+            <legend>
+                <h3>Registration</h3>
+            </legend>
+            <center>
+                <h2>Class Registration</h2>
+            </center>
+            <center><label for="register"></label>fill the form carefully for registration</label></center>
+            <label for="first name">student name :</label><br>
+            <input type="text" id="First name">
+            <input type=" text" id="First name">
+            <input type=" text" id="First name"><br>
+            <input type="text" id="First name" class="border" placeholder="First name" readonly>
+            <input type="text" id="First name" class="border" placeholder="second name" readonly>
+            <input type="text" id="First name" class="border" placeholder="third name" readonly><br><br>
+            <div class="email">
+                <label for="gender">gender :</label>
+            </div><br>
+            <div class="email">
+                <select name="gender" id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select><br><br>
+                <label for="email">std-email :</label><br>
+                <input type="email" id="email" placeholder="ex:myname@gmail.com"><br>
+                <input type="email" id="email" placeholder="ex:myname@gmail.com" class="border" readonly><br><br>
+            </div>
+            <label for="Student Id">Student Id :</label><br>
+            <input type="text" id="student id" placeholder="53784"><br><br>
+            <label for="List of classes">List of Classes :</label><br>
+            <select name="List of classes" id="List of classes">
+                <option value="please select">Please select</option>
+                <option value="Html">Html</option>
+                <option value="Css">Css</option>
+            </select><br><br>
+            <input type="submit">
+            <button style="background-color: chartreuse;">button</button>
+            <button class="good">submit</button>
+        </fieldset>
+
+        <fieldset class="bad">
+            <legend>
+                <h3>Event Registation</h3>
+            </legend>
+            <label for="registration">
+                <h3>Event Registration Form</h3>
+            </label>
+
+            <label for="first name">
+                <pre><h5>first name                    second name</h5></pre>
+            </label>
+            <input type="text" id="first name" placeholder="hii">
+            <input type="text" id="second name" placeholder="friends"><br><br>
+            <label for="email address">email</label><br>
+            <input type="email" id="email" placeholder="hiifriends@gmail.com"><br><br>
+            <label for="phoneno">phone no</label><br><br>
+            <input type="text" id="phoneno" placeholder="+1 (555) 123-4567"><br><br>
+            <label for="country">country</label>
+            <select name="country" id="country">
+                <option value="please select">Please select</option>
+                <option value="India">India</option>
+                <option value="America">America</option>
+            </select><br><br>
+            <label for="Data of birth">data of birth</label>
+            <input type="date"><br><br>
+            <label for="T-shirts">T-shirt size</label><br>
+            <input type="checkbox">
+            <label for="checkbox">small</label>
+            <input type="checkbox">
+            <label for="checkbox">medium</label><br>
+            <input type="checkbox">
+            <label for="checkbox">large</label>
+            <input type="checkbox">
+            <label for="checkbox">extra large</label><br><br>
+            <label for="emergency">
+                <h3>Emergency contact information</h3>
+            </label>
+            <label for="emergency">emergency contact name</label><br>
+            <input type="text" id="emergency" placeholder="jane smith"><br><br>
+            <label for="emergency">emergency contact phone name</label><br>
+            <input type="text" id="emergency" placeholder="+1(555)123-456"><br>
+            <input type="checkbox">
+            <label for="checkbox">I agree the terms and conditions</label><br><br>
+            <button class="good">submit</button>
+        </fieldset>
+    </form>
+    </body>
+</html>
